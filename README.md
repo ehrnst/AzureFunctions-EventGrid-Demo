@@ -4,6 +4,8 @@
 
 A demo showing how to use Azure event grid custom topic and PowerShell Azure Functions. Each individual PowerShell function will subscribe to one event and post a new event. The intention is to replicate a business process. For the purpose of the demo, we are usin a Pizza order and delivery.
 
+![pizza process](pizzaorderProcess.jpg)
+
 ## How to install
 
 The ARM template under .Infrastructure will deploy the infrastructure, including Azure function app and an event grid topic. At this point, the code and the individual event grid subscriptions are **not** deployed.
